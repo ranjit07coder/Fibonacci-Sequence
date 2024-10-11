@@ -17,8 +17,8 @@ public class Main
             System.out.println("fibonacci series."+" ");
 
             
-            int first=0;//initial number fixed  
-            int second=1;//second number fixed
+            int first=0;           //initial number fixed  
+            int second=1;           //second number fixed
             
             for(int i=1;i<=n;i++){
                 System.out.print(first+" ");
@@ -27,5 +27,6 @@ public class Main
                 second=next;
             }
         }
+        sc.close();
     }
 }
